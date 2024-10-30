@@ -7,6 +7,13 @@
 }
 
 /* Next Project Section */
-.next-project{
-  background-image: url('/assets/bg.jpg');
+.next-project {
+  background-image: url('assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+::placeholder {
+  font-weight: 500;
 }
