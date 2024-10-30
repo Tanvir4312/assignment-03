@@ -7,13 +7,17 @@
 }
 
 /* Next Project Section */
-.next-project {
+.next-project{
   background-image: url('/assets/bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-::placeholder {
+::placeholder{
   font-weight: 500;
+ 
+}
+textarea{
+  resize: none;
 }
